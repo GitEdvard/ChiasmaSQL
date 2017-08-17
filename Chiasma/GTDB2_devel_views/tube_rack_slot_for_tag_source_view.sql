@@ -1,0 +1,15 @@
+use gtdb2_devel
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE VIEW tube_rack_slot_for_tag_source_view AS
+SELECT
+	tube_rack_slot_for_tag_source.tube_rack_slot_for_tag_source_id as id,
+	tube_rack_slot_for_tag_source.tube_rack_id,
+	tube_rack_slot_for_tag_source.position_x,
+	tube_rack_slot_for_tag_source.position_y,
+	tube_rack_slot_for_tag_source.tag_index_id
+FROM tube_rack_slot_for_tag_source

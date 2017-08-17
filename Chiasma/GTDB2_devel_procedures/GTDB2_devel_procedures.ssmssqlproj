@@ -1,0 +1,2564 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GTDB2_devel_procedures">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="mm-wchs001:devel_edvard">
+          <Created>2016-12-22T14:09:22.8832003+01:00</Created>
+          <Type>SQL</Type>
+          <Server>mm-wchs001</Server>
+          <UserName>devel_edvard</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>GTDB2_devel</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="MM-WCHS001:USER\edeng655">
+          <Created>2013-10-02T17:53:47.9231095+02:00</Created>
+          <Type>SQL</Type>
+          <Server>MM-WCHS001</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="p_AddPrimerToAssay.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_AddPrimerToAssay.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetGenotypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetGenotypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetGenotypesFromMarkerSelection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetGenotypesFromMarkerSelection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetIndividuals.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetIndividuals.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetMarkerCount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetMarkerCount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetMarkers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetMarkers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetProblemMarkers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetProblemMarkers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_BulkQCGetSamples.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_BulkQCGetSamples.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CheckMarkersExists.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CheckMarkersExists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CheckMarkersInForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CheckMarkersInForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CheckMarkersPlus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CheckMarkersPlus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CleanAuthoritySessionMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CleanAuthoritySessionMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateAlleleVariantForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateAlleleVariantForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateAlleleVariantForwardExtraVersion.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateAlleleVariantForwardExtraVersion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateAssay.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateAssay.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateAssayMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateAssayMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateBeadChip.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateBeadChip.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateBeadChipInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateBeadChipInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateBeadChipType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateBeadChipType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateBlankIndividual.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateBlankIndividual.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateContact.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateContact.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateContactCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateContactCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateContactMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateContactMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateDevice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateDevice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateDiluteHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateDiluteHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateExternalBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateExternalBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateFlowCell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateFlowCell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateFlowCellDisc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateFlowCellDisc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateFlowCellWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateFlowCellWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateGenotype.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateGenotype.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateIndividual.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateIndividual.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateInternalBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateInternalBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateMarker.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateMarker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateMarkerAssayLink.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_CreateMarkerAssayLink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateMarkerAssayMap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_CreateMarkerAssayMap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateMarkerChunk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateMarkerChunk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateMarkerMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateMarkerMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateNegSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateNegSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePlateDilutionScheme.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePlateDilutionScheme.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePlateType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePlateType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePoolInfoForAliquots.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePoolInfoForAliquots.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePoolInfoForSamples.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePoolInfoForSamples.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePrimer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePrimer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateProjectGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateProjectGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateProjectMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateProjectMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateResultPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateResultPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateResultPlateMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateResultPlateMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSampleChunk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSampleChunk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSampleMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSampleMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSampleSeriesGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSampleSeriesGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSampleSeriesMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSampleSeriesMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSpecies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSpecies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateState.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateState.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTagGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTagGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTagIndex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTagIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTubeAliquot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTubeAliquot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTubeChunk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTubeChunk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTubeRack.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTubeRack.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateTubeRackType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateTubeRackType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateUpdateAlleleVariantForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateUpdateAlleleVariantForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateUserGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateUserGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateUserMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateUserMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateWorkingSet.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateWorkingSet.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteAliquot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteAliquot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteAssayMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteAssayMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteBeadChip.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteBeadChip.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteBeadChipType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteBeadChipType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteContactMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteContactMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteContaine.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteContaine.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteDevice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteDevice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteFlowCell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteFlowCell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteIndividual.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteIndividual.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteMarkerMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteMarkerMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeletePlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeletePlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeletePoolInfoForAliquots.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeletePoolInfoForAliquots.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeletePoolInfoForSamples.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeletePoolInfoForSamples.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteProjectGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteProjectGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteProjectMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteProjectMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteResultPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteResultPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteResultPlateMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteResultPlateMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteSampleMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteSampleMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteSampleSeriesGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteSampleSeriesGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteSampleSeriesMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteSampleSeriesMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteState.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteState.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteTagGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteTagGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteTagIndex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteTagIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteTubeAliquot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteTubeAliquot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteTubeRack.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteTubeRack.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteUserGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteUserGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteUserMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteUserMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DisposeGenericContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DisposeGenericContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesCheckMarkersInForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesCheckMarkersInForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesCheckMarkersInPlus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesCheckMarkersInPlus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetGenotypesForInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetGenotypesForInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetIndividualsSelected.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetIndividualsSelected.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetMarkerCount.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetMarkerCount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetMarkersForInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetMarkersForInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetMarkersSelected.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetMarkersSelected.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetMarkersSelectedInForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetMarkersSelectedInForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetMarkersSelectedInPlus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetMarkersSelectedInPlus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetProblemsMarkersForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetProblemsMarkersForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetProblemsMarkersPlus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetProblemsMarkersPlus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ExportGenotypesGetSamplesSelected.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ExportGenotypesGetSamplesSelected.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAliquotById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAliquotById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAliquotForWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAliquotForWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAliquotHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAliquotHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAliquots.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAliquots.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAliquotsForSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAliquotsForSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAliquotsForSourceContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAliquotsForSourceContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAlleleResults.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAlleleResults.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAlleleVariantForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAlleleVariantForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAlleleVariantForwardExtraVersionsForMarker.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAlleleVariantForwardExtraVersionsForMarker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAlleleVariantPlus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAlleleVariantPlus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAlleleVariantPlusExtraVersionForMarker.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAlleleVariantPlusExtraVersionForMarker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAlleleVariants.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAlleleVariants.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAllTagGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAllTagGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAllTagIndices.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAllTagIndices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssayById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssayById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssayByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssayByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssayHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssayHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssaysByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssaysByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssaysForMarker.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssaysForMarker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssaysForWorkingSet.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssaysForWorkingSet.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetAssayWorkingSetHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetAssayWorkingSetHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipLabels.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipLabels.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipsForPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipsForPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipsForSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipsForSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipWellHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipWellHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBeadChipWells.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBeadChipWells.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetBlankSamplesForSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetBlankSamplesForSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetCategories.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetCategories.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetColumnLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetColumnLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContactCategories.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContactCategories.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContactCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContactCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContactMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContactMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContacts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContacts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContainerContentsHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContainerContentsHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContainerHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContainerHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContainerMoveHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContainerMoveHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContainerPath.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContainerPath.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetContainersTopLevel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetContainersTopLevel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetControlTubes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetControlTubes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetControlTubesDiluted.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetControlTubesDiluted.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetDevices.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetDevices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetDiluteHistoryFromContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetDiluteHistoryFromContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetDiluteHistoryFromWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetDiluteHistoryFromWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetDiluteHistoryToPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetDiluteHistoryToPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetDiluteHistoryToTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetDiluteHistoryToTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetDiluteHistoryToWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetDiluteHistoryToWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellDiscsForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellDiscsForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellMappingForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellMappingForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellsByRunfolder.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellsByRunfolder.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellsForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellsForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellsForSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellsForSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellWellDiscLinkHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellWellDiscLinkHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellWellHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellWellHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetFlowCellWells.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetFlowCellWells.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainerByBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainerByBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainerById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainerById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainerByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainerByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainerContents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainerContents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainerContentsContainersOnly.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainerContentsContainersOnly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainersAdvancedSearch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainersAdvancedSearch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainersByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainersByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainersForSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainersForSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericContainersUncontained.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericContainersUncontained.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericMasterContainers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericMasterContainers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenericsContainersByContainerReq.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenericsContainersByContainerReq.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenotypesByResultPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_GetGenotypesByResultPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGenotypeStatuses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGenotypeStatuses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGtMethodById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGtMethodById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGtMethodByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGtMethodByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetGtMethods.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetGtMethods.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualsByExternalName.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualsByExternalName.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualsByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualsByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualsChildren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualsChildren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualsForInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualsForInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetIndividualsForPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetIndividualsForPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportHistoryForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportHistoryForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportIndividualStatistics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportIndividualStatistics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportMarkerStatistics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportMarkerStatistics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportMarkerStatisticsForExcel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportMarkerStatisticsForExcel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInternalReportsForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInternalReportsForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetItem.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetItem.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerAssayLinks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_GetMarkerAssayLinks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerAssayMapById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_GetMarkerAssayMapById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerAssayMapByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_GetMarkerAssayMapByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerAssayMaps.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_GetMarkerAssayMaps.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkerById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkerByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerIdByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkerIdByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerDetails.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkerDetails.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkerHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkersByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkersByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkersForWorkingSet.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkersForWorkingSet.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMarkerWorkingSetHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMarkerWorkingSetHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetNextFreePoolNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetNextFreePoolNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateDilutionSchemes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateDilutionSchemes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateDilutionWells.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateDilutionWells.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateLabels.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateLabels.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlatesByIdentifierLeftMatch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlatesByIdentifierLeftMatch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlatesBySampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlatesBySampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlateTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlateTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolInfoForAliquotsById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolInfoForAliquotsById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolInfoForAliquotsByPlateId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolInfoForAliquotsByPlateId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolInfoForAliquotsByTubeId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolInfoForAliquotsByTubeId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolInfoForAliquotsHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolInfoForAliquotsHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolInfoForSamplesByTubeId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolInfoForSamplesByTubeId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolInfoIdentifiersByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolInfoIdentifiersByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPoolNumbersForSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPoolNumbersForSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimerById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimerById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimerByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimerByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimerHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimerHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimersByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimersByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimerSetHistoryForAssay.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimerSetHistoryForAssay.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimerSetHistoryForPrimer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimerSetHistoryForPrimer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimersForAssay.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimersForAssay.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPrimerTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPrimerTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectRightsHistoryForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectRightsHistoryForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectRightsHistoryForUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectRightsHistoryForUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectSampleSeriesHistoryForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectSampleSeriesHistoryForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectSampleSeriesHistoryForSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectSampleSeriesHistoryForSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectsByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectsByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectsForFlowCellDisc.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectsForFlowCellDisc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetProjectsForUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetProjectsForUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetQualityControlDatabases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetQualityControlDatabases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlateByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlateByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlateHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlateHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlatesForInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlatesForInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlatesForProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlatesForProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlatesForSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlatesForSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlatesForWorkingSet.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlatesForWorkingSet.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetResultPlateWorkingSetHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetResultPlateWorkingSetHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleByTubeId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleByTubeId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesForUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesForUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesRightsHistoryForSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesRightsHistoryForSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleSeriesRightsHistoryForUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleSeriesRightsHistoryForUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesForIndividual.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesForIndividual.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesForInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesForInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesForPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesForPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesForSampleSeries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesForSampleSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesForSeqPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesForSeqPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesForWorkingSet.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesForWorkingSet.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSamplesSelected.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSamplesSelected.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSampleWorkingSetHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSampleWorkingSetHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSeqSampleByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSeqSampleByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSpecies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSpecies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetStateById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetStateById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetStateByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetStateByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetStateIsUsed.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetStateIsUsed.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetStates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetStates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTagGroupById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTagGroupById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTagIndicesForTagGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTagIndicesForTagGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotForTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotForTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotForWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotForWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotsForPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotsForPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotsForPoolInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotsForPoolInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotsForSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotsForSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeAliquotsForSourceContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeAliquotsForSourceContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeIdentifiersByIdentifierFilter.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeIdentifiersByIdentifierFilter.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeInfoFromSelected.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeInfoFromSelected.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeInfoFromSelectedBarcodes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeInfoFromSelectedBarcodes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeRackHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeRackHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeRackLabels.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeRackLabels.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeRacks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeRacks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeRackSlotsForTagSource.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeRackSlotsForTagSource.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubeRackTypes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubeRackTypes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTubesSelected.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTubesSelected.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserCurrent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserCurrent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserFromBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserFromBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserGroups.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserGroups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserHistory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserHistory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetWorkingSetByIdentifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetWorkingSetByIdentifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetWorkingSets.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetWorkingSets.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_MoveContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_MoveContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_OrderManTransferUserBarcodes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_OrderManTransferUserBarcodes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCBacksync.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCBacksync.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCCleanDeletedPlates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCCleanDeletedPlates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCInsertWsetOffset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCInsertWsetOffset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCRebuildAll.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCRebuildAll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCRebuildDatabase.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCRebuildDatabase.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCRefreshProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCRefreshProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_QCReset.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_QCReset.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ReleaseAuthorityMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ReleaseAuthorityMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_RestoreGenericContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_RestoreGenericContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_SetAuthorityMappingFromSysUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_SetAuthorityMappingFromSysUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_SetAuthorityMappingFromBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_SetAuthorityMappingFromBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_SetFlowCellDiscToProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_SetFlowCellDiscToProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAliquot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAliquot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAliquotComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAliquotComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAliquotConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAliquotConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAliquotFragmentLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAliquotFragmentLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAliquotMolarConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAliquotMolarConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAliquotVolume.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAliquotVolume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAlleleVariantForward.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAlleleVariantForward.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateAssayComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateAssayComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateBeadChip.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateBeadChip.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateBeadChipInfo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateBeadChipInfo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateBeadChipType.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateBeadChipType.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateBeadChipWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateBeadChipWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateContact.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateContact.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateContactCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateContactCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateDevice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateDevice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateFlowCell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateFlowCell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateFlowCellWell.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateFlowCellWell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateFlowCellWellDiscLink.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateFlowCellWellDiscLink.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateIndividual.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateIndividual.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateIndividualParent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateIndividualParent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateInternalReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateInternalReport.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateInternalReportMarkerComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateInternalReportMarkerComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMarker.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateMarker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMarkerAssayMap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_UpdateMarkerAssayMap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMarkerComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateMarkerComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMarkerForwardChunk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateMarkerForwardChunk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMarkerPlusChunk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateMarkerPlusChunk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMarkersCreateNewAlleles.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateMarkersCreateNewAlleles.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquots.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquots.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquotsComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquotsComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquotsConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquotsConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquotsFragmentLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquotsFragmentLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquotsFromIds.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquotsFromIds.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquotsMolarConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquotsMolarConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForAliquotsVolume.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForAliquotsVolume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForSamples.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForSamples.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForSamplesVolume.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForSamplesVolume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePoolInfoForSampleVolumeCustomer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePoolInfoForSampleVolumeCustomer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePrimerComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePrimerComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePrimerCommentAndOrientation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePrimerCommentAndOrientation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateProject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateProject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateProjectGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateProjectGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateResultPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateResultPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSample.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSample.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleConcentrationCurrent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleConcentrationCurrent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleConcentrationCustomer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleConcentrationCustomer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleFragmentLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleFragmentLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleIsHighlightedRecursive.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleIsHighlightedRecursive.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleMolarConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleMolarConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleNoContainer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleNoContainer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleSeriesGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleSeriesGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleTagFromTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleTagFromTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleWithPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleWithPlate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleWithTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleWithTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleVolumeCurrent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleVolumeCurrent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSampleVolumeCustomer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSampleVolumeCustomer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateState.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateState.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTagGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTagGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTagIndex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTagIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquot.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotComment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotFragmentLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotFragmentLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotMolarConcentration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotMolarConcentration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquots.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquots.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotsForPooledTube.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotsForPooledTube.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotTagFromTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotTagFromTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeAliquotVolume.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeAliquotVolume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeMethod.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeMethod.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateTubeRack.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateTubeRack.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateUserGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateUserGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateUserInactivate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateUserInactivate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateWorkingSetComment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateWorkingSetComment.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+  <SccProjectName>$/TfsRoot/LIMS/Database_Objects</SccProjectName>
+  <SccAuxPath />
+  <SccLocalPath>..\..</SccLocalPath>
+  <SccProvider>MSSCCI:Team Foundation Server MSSCCI Provider</SccProvider>
+</SqlWorkbenchSqlProject>

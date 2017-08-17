@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Auxilliary_procedures">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="mm-wchs001:admin_edvard">
+          <Created>2016-05-11T12:26:25.3365998+02:00</Created>
+          <Type>SQL</Type>
+          <Server>mm-wchs001</Server>
+          <UserName>admin_edvard</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="MM-WCHS001:USER\edeng655">
+          <Created>2016-05-11T10:03:04.2453334+02:00</Created>
+          <Type>SQL</Type>
+          <Server>MM-WCHS001</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="fn_FileExists.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fn_FileExists.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_ParsePosX.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>fn_ParsePosX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_ParsePosY.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>fn_ParsePosY.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_FileToSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_FileToSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_FileToSelect_GenerateScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_FileToSelect_GenerateScript.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ListDirectory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ListDirectory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ListOrphanCandidates.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ListOrphanCandidates.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_OXBS_namechange_step1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_OXBS_namechange_step1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_OXBS_namechange_step2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_OXBS_namechange_step2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_OXBS_namechange_step3.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_OXBS_namechange_step3.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_TestUpdatePlatePos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_TestUpdatePlatePos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UndoConcCustomer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_UndoConcCustomer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSamplesInPlate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSamplesInPlate.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+  <SccProjectName>$/TfsRoot/LIMS/Database_Objects</SccProjectName>
+  <SccAuxPath />
+  <SccLocalPath>..</SccLocalPath>
+  <SccProvider>MSSCCI:Team Foundation Server MSSCCI Provider</SccProvider>
+</SqlWorkbenchSqlProject>

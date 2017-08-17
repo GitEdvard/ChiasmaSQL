@@ -1,0 +1,500 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BookKeeping_devel_procedures">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="MM-WCHS001:USER\aengled">
+          <Created>2013-10-02T17:51:36.2882925+02:00</Created>
+          <Type>SQL</Type>
+          <Server>MM-WCHS001</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="p_CleanAuthoritySessionMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CleanAuthoritySessionMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CompletePost_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CompletePost_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ConfirmPostArrival_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ConfirmPostArrival_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ConfirmPostOrdered_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ConfirmPostOrdered_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateArticleNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateArticleNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateArticleNumberNoSelect.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateArticleNumberNoSelect.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateCurrency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateCurrency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateCustomerNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateCustomerNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateInvoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateInvoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateInvoiceCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateInvoiceCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateMerchandise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateMerchandise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateOrderSummary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateOrderSummary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePost_TableVersion1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePost_TableVersion1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreatePost_tv2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreatePost_tv2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateSupplier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateSupplier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_CreateUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_CreateUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteCurrency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteCurrency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteCustomerNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteCustomerNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteInvoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteInvoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteInvoiceCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteInvoiceCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteMerchandise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteMerchandise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteOrderSummary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteOrderSummary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeletePost_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeletePost_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeletePost_tv2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeletePost_tv2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteSupplier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteSupplier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_DeleteUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_DeleteUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetColumnLength.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetColumnLength.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetCurrencies.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetCurrencies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetCustomerNumberById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetCustomerNumberById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetCustomerNumberBySupplierId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetCustomerNumberBySupplierId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetCustomerNumbersAll.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetCustomerNumbersAll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInvoiceById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInvoiceById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInvoiceByOrderSummaryId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInvoiceByOrderSummaryId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInvoiceCategories.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInvoiceCategories.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetInvoiceCategoryById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetInvoiceCategoryById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMercandise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMercandise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetMerchandiseById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetMerchandiseById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetOrderSummaries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetOrderSummaries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetOrderSummariesByCustomerNumberId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetOrderSummariesByCustomerNumberId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetOrderSummaryById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetOrderSummaryById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPlaceOfPurchases.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPlaceOfPurchases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPostById_TableVersion1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPostById_TableVersion1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPostById_tv2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPostById_tv2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPosts_TableVersion1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPosts_TableVersion1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPosts_tv2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPosts_tv2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPostsByCustomerNumberId_TableVersion1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPostsByCustomerNumberId_TableVersion1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetPostsByOrderSummaryId.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetPostsByOrderSummaryId.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSupplierById.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSupplierById.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetSuppliers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetSuppliers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetTimeIntervalsForPosts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetTimeIntervalsForPosts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserCurrent.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserCurrent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUserFromBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUserFromBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_GetUsers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_GetUsers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_OrderPost_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_OrderPost_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_RegretOrderConfirmed_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_RegretOrderConfirmed_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_RegretOrderPost_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_RegretOrderPost_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_RegretPostArrivalConf_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_RegretPostArrivalConf_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_RegretPostCompleted_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_RegretPostCompleted_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ReleaseAuthorityMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ReleaseAuthorityMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ResetPostInvoiceStatus_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ResetPostInvoiceStatus_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_ScheduledProcedureDisableProducts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_ScheduledProcedureDisableProducts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_SetAuthorityMappingFromBarcode.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_SetAuthorityMappingFromBarcode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_SetAuthorityMappingFromSysUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_SetAuthorityMappingFromSysUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_SignPostInvoice_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_SignPostInvoice_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateArticleNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateArticleNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateCurrency.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateCurrency.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateCustomerNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateCustomerNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateInvoice.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateInvoice.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateInvoiceCategory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateInvoiceCategory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateMerchandise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateMerchandise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateOrderSummary.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateOrderSummary.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePost_TableVersion1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePost_TableVersion1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePost_tv2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePost_tv2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePostPrizeByMerchansdise.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePostPrizeByMerchansdise.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePostSalesOrderNumber.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePostSalesOrderNumber.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdatePostSalesOrderNumber_tv1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdatePostSalesOrderNumber_tv1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateSupplier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateSupplier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_UpdateUser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>p_UpdateUser.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+  <SccProjectName>$/TfsRoot/LIMS/Database_Objects</SccProjectName>
+  <SccAuxPath />
+  <SccLocalPath>..\..</SccLocalPath>
+  <SccProvider>MSSCCI:Team Foundation Server MSSCCI Provider</SccProvider>
+</SqlWorkbenchSqlProject>
