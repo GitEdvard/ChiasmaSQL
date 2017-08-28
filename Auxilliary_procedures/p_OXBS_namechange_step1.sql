@@ -34,7 +34,7 @@ Required preparation:
 	Create tube pairs for each sample which is to be turned into OX and BS versions. This is 
 	accomplished by ordinary dilution in Chiasma.
 
-DP updates at @run = 1
+DB updates at @run = 1
 	GTDB2: None
 	Auxilliary: ''working tables'' used in later steps
 				oxbs_namechange_tube_name
@@ -44,9 +44,9 @@ Input:
 	A list of tubes described above, which should be turned into OX and BS samples. 
 	The tubes should be in duplicate for each individual. Example:
 			
-			NC_1_BS.v1_500ng_161020.v2
-			NC_1_OX.v1_500ng_161020.v1
-			NC_2_BS.v1_500ng_161020.v2
+			NC_1.v1_500ng_161020.v1
+			NC_1.v1_500ng_161020.v2
+			NC_2.v1_500ng_161020.v1
 			...
 
 	This list should be pasted into 
@@ -152,8 +152,6 @@ if @validate = 1 begin
 	return
 end
 
-select ind_ext_name, sample_ext_name from @ind_sample_pairs
-
 if @run = 1 begin
 
 	delete from oxbs_namechange_tube_name
@@ -166,7 +164,12 @@ if @run = 1 begin
 	(ord_sample_id, oxbs_sample_id, oxbs_type)
 	select ord_sample_id, oxbs_sample_id, oxbs_type
 	from @existing_oxbs
+
+	select 'Paste this list into a sample submission form and import into Chiasma'
 end
+
+select ind_ext_name, sample_ext_name from @ind_sample_pairs
+
 
 SET NOCOUNT off
 end
