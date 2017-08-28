@@ -1,140 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # SQL Server Management Studio Solution File, Format Version 11.00
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GTDB2_devel_roles", "Chiasma\GTDB2_devel_roles\GTDB2_devel_roles.ssmssqlproj", "{255CD2A3-9157-4778-B71C-20D577F08F3F}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GTDB2_devel_functions", "Chiasma\GTDB2_devel_functions\GTDB2_devel_functions.ssmssqlproj", "{C36AA4A1-8CB5-42CE-B13B-EEFD0B3C3531}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GTDB2_devel_procedures", "Chiasma\GTDB2_devel_procedures\GTDB2_devel_procedures.ssmssqlproj", "{E601ABA9-8066-4856-B4F6-C835DCC96F39}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GTDB2_devel_triggers", "Chiasma\GTDB2_devel_triggers\GTDB2_devel_triggers.ssmssqlproj", "{58823F64-70C4-4E77-836C-9A5EED1B8951}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "GTDB2_devel_views", "Chiasma\GTDB2_devel_views\GTDB2_devel_views.ssmssqlproj", "{BD76B107-DC6F-472A-BA86-56318A2B655B}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "FP_devel", "FP\FP_devel\FP_devel.ssmssqlproj", "{2A08D89D-C349-4581-87E3-B494A84D4BD9}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "QC_devel_functions", "SQAT\QC_devel_functions\QC_devel_functions.ssmssqlproj", "{6AE360ED-BD31-4981-BA85-BB5CEC709B53}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "QC_devel_procedures", "SQAT\QC_devel_procedures\QC_devel_procedures.ssmssqlproj", "{AE452821-1261-4CE8-8A75-C609D6D7EB43}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "QC_devel_tables", "SQAT\QC_devel_tables\QC_devel_tables.ssmssqlproj", "{F8CC6DCA-12E2-4D53-88AC-D5D79EB7D7F3}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BookKeeping_devel_procedures", "PlattformOrdMan\BookKeeping_devel_procedures\BookKeeping_devel_procedures.ssmssqlproj", "{66EE1C9C-4B5E-4127-BA82-E1786A3C0D3D}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BookKeeping_devel_triggers", "PlattformOrdMan\BookKeeping_devel_triggers\BookKeeping_devel_triggers.ssmssqlproj", "{F8EF676D-CB0E-4272-9756-6CF1F9A804DC}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BookKeeping_devel_views", "PlattformOrdMan\BookKeeping_devel_views\BookKeeping_devel_views.ssmssqlproj", "{EEF191A5-C6D8-4B2D-A2D9-1F696868816A}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "BookKeeping_devel_functions", "PlattformOrdMan\BookKeeping_devel_functions\BookKeeping_devel_functions.ssmssqlproj", "{D47518BD-FF27-46CF-8B49-08E074E3E49F}"
-EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DBAMonitor_procedures", "DBAMonitor\DBAMonitor_procedures\DBAMonitor_procedures.ssmssqlproj", "{417A0108-9E50-427E-B228-E6152528BD34}"
-EndProject
-Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Release_GTDB2_150507", "Update scripts\GTDB2_devel\2015\Release_GTDB2_150507\Release_GTDB2_150507.ssmssqlproj", "{476626B0-CEED-42CD-8EF2-532DDEA9E84F}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Administration_procedures", "Administration_procedures\Administration_procedures.ssmssqlproj", "{528B9375-7771-4F90-A1B8-9A6FD043E2D0}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Auxilliary_procedures", "Auxilliary_procedures\Auxilliary_procedures.ssmssqlproj", "{178080DB-E435-4511-A5B5-1FAFA37353C8}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 18
-		SccProjectName0 = $/TfsRoot/LIMS/Database_Objects
-		SccLocalPath0 = .
-		SccProvider0 = MSSCCI:Team\u0020Foundation\u0020Server\u0020MSSCCI\u0020Provider
-		CanCheckoutShared = false
-		SccProjectUniqueName1 = Chiasma\\GTDB2_devel_roles\\GTDB2_devel_roles.ssmssqlproj
-		SccLocalPath1 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection1 = Chiasma\\GTDB2_devel_roles\\
-		SccProjectUniqueName2 = Chiasma\\GTDB2_devel_functions\\GTDB2_devel_functions.ssmssqlproj
-		SccLocalPath2 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection2 = Chiasma\\GTDB2_devel_functions\\
-		SccProjectUniqueName3 = Chiasma\\GTDB2_devel_procedures\\GTDB2_devel_procedures.ssmssqlproj
-		SccLocalPath3 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection3 = Chiasma\\GTDB2_devel_procedures\\
-		SccProjectUniqueName4 = Chiasma\\GTDB2_devel_triggers\\GTDB2_devel_triggers.ssmssqlproj
-		SccLocalPath4 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection4 = Chiasma\\GTDB2_devel_triggers\\
-		SccProjectUniqueName5 = Chiasma\\GTDB2_devel_views\\GTDB2_devel_views.ssmssqlproj
-		SccLocalPath5 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection5 = Chiasma\\GTDB2_devel_views\\
-		SccProjectUniqueName6 = FP\\FP_devel\\FP_devel.ssmssqlproj
-		SccLocalPath6 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection6 = FP\\FP_devel\\
-		SccProjectUniqueName7 = SQAT\\QC_devel_functions\\QC_devel_functions.ssmssqlproj
-		SccLocalPath7 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection7 = SQAT\\QC_devel_functions\\
-		SccProjectUniqueName8 = SQAT\\QC_devel_procedures\\QC_devel_procedures.ssmssqlproj
-		SccLocalPath8 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection8 = SQAT\\QC_devel_procedures\\
-		SccProjectUniqueName9 = SQAT\\QC_devel_tables\\QC_devel_tables.ssmssqlproj
-		SccLocalPath9 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection9 = SQAT\\QC_devel_tables\\
-		SccProjectUniqueName10 = PlattformOrdMan\\BookKeeping_devel_procedures\\BookKeeping_devel_procedures.ssmssqlproj
-		SccLocalPath10 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection10 = PlattformOrdMan\\BookKeeping_devel_procedures\\
-		SccProjectUniqueName11 = PlattformOrdMan\\BookKeeping_devel_triggers\\BookKeeping_devel_triggers.ssmssqlproj
-		SccLocalPath11 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection11 = PlattformOrdMan\\BookKeeping_devel_triggers\\
-		SccProjectUniqueName12 = PlattformOrdMan\\BookKeeping_devel_views\\BookKeeping_devel_views.ssmssqlproj
-		SccLocalPath12 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection12 = PlattformOrdMan\\BookKeeping_devel_views\\
-		SccProjectUniqueName13 = PlattformOrdMan\\BookKeeping_devel_functions\\BookKeeping_devel_functions.ssmssqlproj
-		SccLocalPath13 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection13 = PlattformOrdMan\\BookKeeping_devel_functions\\
-		SccProjectUniqueName14 = DBAMonitor\\DBAMonitor_procedures\\DBAMonitor_procedures.ssmssqlproj
-		SccLocalPath14 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection14 = DBAMonitor\\DBAMonitor_procedures\\
-		SccProjectUniqueName15 = Update\u0020scripts\\GTDB2_devel\\2015\\Release_GTDB2_150507\\Release_GTDB2_150507.ssmssqlproj
-		SccLocalPath15 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection15 = Update\u0020scripts\\GTDB2_devel\\2015\\Release_GTDB2_150507\\
-		SccProjectUniqueName16 = Administration_procedures\\Administration_procedures.ssmssqlproj
-		SccLocalPath16 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection16 = Administration_procedures\\
-		SccProjectUniqueName17 = Auxilliary_procedures\\Auxilliary_procedures.ssmssqlproj
-		SccLocalPath17 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection17 = Auxilliary_procedures\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{255CD2A3-9157-4778-B71C-20D577F08F3F}.Default|Default.ActiveCfg = Default
-		{C36AA4A1-8CB5-42CE-B13B-EEFD0B3C3531}.Default|Default.ActiveCfg = Default
-		{E601ABA9-8066-4856-B4F6-C835DCC96F39}.Default|Default.ActiveCfg = Default
-		{58823F64-70C4-4E77-836C-9A5EED1B8951}.Default|Default.ActiveCfg = Default
-		{BD76B107-DC6F-472A-BA86-56318A2B655B}.Default|Default.ActiveCfg = Default
-		{2A08D89D-C349-4581-87E3-B494A84D4BD9}.Default|Default.ActiveCfg = Default
-		{6AE360ED-BD31-4981-BA85-BB5CEC709B53}.Default|Default.ActiveCfg = Default
-		{AE452821-1261-4CE8-8A75-C609D6D7EB43}.Default|Default.ActiveCfg = Default
-		{F8CC6DCA-12E2-4D53-88AC-D5D79EB7D7F3}.Default|Default.ActiveCfg = Default
-		{66EE1C9C-4B5E-4127-BA82-E1786A3C0D3D}.Default|Default.ActiveCfg = Default
-		{F8EF676D-CB0E-4272-9756-6CF1F9A804DC}.Default|Default.ActiveCfg = Default
-		{EEF191A5-C6D8-4B2D-A2D9-1F696868816A}.Default|Default.ActiveCfg = Default
-		{D47518BD-FF27-46CF-8B49-08E074E3E49F}.Default|Default.ActiveCfg = Default
-		{417A0108-9E50-427E-B228-E6152528BD34}.Default|Default.ActiveCfg = Default
-		{476626B0-CEED-42CD-8EF2-532DDEA9E84F}.Default|Default.ActiveCfg = Default
-		{528B9375-7771-4F90-A1B8-9A6FD043E2D0}.Default|Default.ActiveCfg = Default
-		{ABF13F50-E595-45B5-8900-E9FC8724B192}.Default|Default.ActiveCfg = Default
-		{178080DB-E435-4511-A5B5-1FAFA37353C8}.Default|Default.ActiveCfg = Default
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
