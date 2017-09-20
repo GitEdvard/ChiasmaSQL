@@ -88,17 +88,35 @@ declare @existing_oxbs table(
 	oxbs_type varchar(10)
 )
 
+declare @sample_name_stem table(
+	sample_id int,
+	dot_index_reverse int,
+	sample_name_stem varchar(255)
+)
+
 if @use_existing_samples = 1
 begin
-	insert into @existing_oxbs
-	(ord_sample_id, sample_name_ord, sample_name_oxbs, oxbs_sample_id)
-	select distinct s1.sample_id, s1.identifier, s2.identifier, s2.sample_id
+	insert into @sample_name_stem
+	(sample_id, dot_index_reverse)
+	select distinct s.sample_id, PATINDEX("%.%", reverse( s.identifier)) - 1
 	from @tmp tt
 	inner join GTDB2.dbo.tube t on tt.tube_name = t.identifier
 	inner join GTDB2.dbo.tube_aliquot ta on ta.tube_id = t.tube_id
-	inner join GTDB2.dbo.sample s1 on s1.sample_id = ta.sample_id
+	inner join GTDB2.dbo.sample s on ta.sample_id = s.sample_id
+
+	update @sample_name_stem set
+		sample_name_stem = SUBSTRING(s.identifier, 0, len(s.identifier) - sns.dot_index_reverse)
+	from @sample_name_stem sns
+	inner join GTDB2.dbo.sample s on sns.sample_id = s.sample_id
+
+	insert into @existing_oxbs
+	(ord_sample_id, sample_name_ord, sample_name_oxbs, oxbs_sample_id)
+	select distinct s1.sample_id, s1.identifier, s2.identifier, s2.sample_id
+	from @sample_name_stem sns
+	inner join GTDB2.dbo.sample s1 on s1.sample_id = sns.sample_id
 	inner join GTDB2.dbo.sample s2 on s2.individual_id = s1.individual_id and
-		(s2.identifier like '%OX.v1%' or s2.identifier like '%BS.v1%')
+		(s2.identifier like sns.sample_name_stem + '%OX.v%' or
+			s2.identifier like sns.sample_name_stem + '%BS.v%')
 end
 
 update eo set
