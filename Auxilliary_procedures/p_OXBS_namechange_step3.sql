@@ -119,7 +119,7 @@ update sm
 	set sample_stem_name = SUBSTRING(sm.sample_orig_name, 0, len(sm.sample_orig_name) - sm.dot_index_reverse)
 from @sample_match sm
 
--- Find sample references to OX samples
+-- Find sample references to OX samples, not existing samples
 update tt set
 	new_sample_id = s2.sample_id,
 	new_sample_identifier = s2.identifier,
@@ -133,8 +133,21 @@ inner join GTDB2.dbo.sample s2 on s2.individual_id = s1.individual_id and
 	s2.identifier like sm.sample_stem_name + '%OX.v1%'
 where tt.rn = 1
 
+-- Find sample references for existing OX samples
+update tt set
+	new_sample_id = s2.sample_id,
+	new_sample_identifier = s2.identifier,
+	old_sample_identifier = s1.identifier
+from @tubes tt
+inner join GTDB2.dbo.tube_aliquot ta on ta.tube_id = tt.tube_id
+inner join GTDB2.dbo.sample s1 on ta.sample_id = s1.sample_id
+inner join oxbs_tube_sample_couple tsc on tsc.tube_name = tt.tube_name
+inner join dbo.oxbs_namechange_existing_oxbs eo on eo.ord_sample_id = s1.sample_id and eo.oxbs_type = 'ox'
+inner join GTDB2.dbo.sample s2 on s2.sample_id = eo.oxbs_sample_id
+where tt.rn = 1
 
--- Find sample references to BS samples
+
+-- Find sample references to BS samples, not existing samples
 update tt set
 	new_sample_id = s2.sample_id,
 	new_sample_identifier = s2.identifier,
@@ -147,6 +160,20 @@ inner join @sample_match sm on sm.sample_orig_name = tsc.sample_name
 inner join GTDB2.dbo.sample s2 on s2.individual_id = s1.individual_id and
 	s2.identifier like sm.sample_stem_name + '%BS.v1%'
 where tt.rn = 2
+
+-- Find sample references for existing BS samples
+update tt set
+	new_sample_id = s2.sample_id,
+	new_sample_identifier = s2.identifier,
+	old_sample_identifier = s1.identifier
+from @tubes tt
+inner join GTDB2.dbo.tube_aliquot ta on ta.tube_id = tt.tube_id
+inner join GTDB2.dbo.sample s1 on ta.sample_id = s1.sample_id
+inner join oxbs_tube_sample_couple tsc on tsc.tube_name = tt.tube_name
+inner join dbo.oxbs_namechange_existing_oxbs eo on eo.ord_sample_id = s1.sample_id and eo.oxbs_type = 'bs'
+inner join GTDB2.dbo.sample s2 on s2.sample_id = eo.oxbs_sample_id
+where tt.rn = 2
+
 
 if @validate = 1 begin
 	select tube_name as old_tube_name, tube_new_name as new_tube_name,

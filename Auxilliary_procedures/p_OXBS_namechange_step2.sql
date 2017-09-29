@@ -86,6 +86,7 @@ declare @samples_staging table(
 	name_stem varchar(255)
 )
 
+-- exclude samples that are found in the existing oxbs table
 insert into @samples_staging
 (sample_name, dot_index, dot_index_reverse)
 select distinct
@@ -94,6 +95,8 @@ select distinct
 	PATINDEX("%.%", REVERSE( s.identifier ))
 from @tmp tt
 inner join GTDB2.dbo.sample s on s.identifier = tt.sample_name
+left outer join dbo.oxbs_namechange_existing_oxbs eo on eo.oxbs_sample_id = s.sample_id
+where eo.oxbs_sample_id is null
 
 update s set
 	s.name_stem = SUBSTRING( s.sample_name, 1, s.dot_index)
