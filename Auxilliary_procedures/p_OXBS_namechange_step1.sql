@@ -152,11 +152,12 @@ end
 insert into @ind_sample_pairs
 (ind_ext_name, sample_ext_name, rn)
 select i.external_name as individual_external_name, s.external_name as sample_external_name,
-ROW_NUMBER() over (partition by i.external_name order by i.external_name)
+ROW_NUMBER() over (partition by sns.sample_name_stem order by sns.sample_name_stem)
 from @tmp tt
 inner join GTDB2.dbo.tube t on t.identifier = tt.tube_name
 inner join GTDB2.dbo.tube_aliquot ta on ta.tube_id = t.tube_id
 inner join GTDB2.dbo.sample s on s.sample_id = ta.sample_id
+inner join @sample_name_stem sns on sns.sample_id = s.sample_id
 inner join GTDB2.dbo.individual i on i.individual_id = s.individual_id
 
 delete from isp
