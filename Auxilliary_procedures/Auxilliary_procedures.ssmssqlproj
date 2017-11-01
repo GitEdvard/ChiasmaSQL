@@ -61,6 +61,12 @@
           <AssociatedConnUserName />
           <FullPath>p_FileToSelect_GenerateScript.sql</FullPath>
         </FileNode>
+        <FileNode Name="p_IdPanelStrandCheck.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_IdPanelStrandCheck.sql</FullPath>
+        </FileNode>
         <FileNode Name="p_ListDirectory.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
@@ -115,8 +121,8 @@
       <Items />
     </LogicalFolder>
   </Items>
-  <SccProjectName>$/TfsRoot/LIMS/Database_Objects</SccProjectName>
+  <SccProjectName />
   <SccAuxPath />
-  <SccLocalPath>..</SccLocalPath>
-  <SccProvider>MSSCCI:Team Foundation Server MSSCCI Provider</SccProvider>
+  <SccLocalPath />
+  <SccProvider />
 </SqlWorkbenchSqlProject>
