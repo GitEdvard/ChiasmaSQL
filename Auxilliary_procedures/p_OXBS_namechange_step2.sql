@@ -95,7 +95,7 @@ select distinct
 	PATINDEX("%.%", REVERSE( s.identifier ))
 from @tmp tt
 inner join GTDB2.dbo.sample s on s.identifier = tt.sample_name
-left outer join dbo.oxbs_namechange_existing_oxbs eo on eo.oxbs_sample_id = s.sample_id
+left outer join dbo.oxbs_namechange_existing_oxbs eo on eo.ord_sample_id = s.sample_id
 where eo.oxbs_sample_id is null
 
 update s set
