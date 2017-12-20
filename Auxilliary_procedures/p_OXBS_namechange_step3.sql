@@ -112,7 +112,7 @@ insert into @sample_match
 select sample_name from oxbs_tube_sample_couple
 
 update sm
-	set dot_index_reverse = PATINDEX("%.%", reverse( sm.sample_orig_name))
+	set dot_index_reverse = PATINDEX("%.%", reverse( sm.sample_orig_name)) - 1
 from @sample_match sm
 
 update sm
