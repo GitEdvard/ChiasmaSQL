@@ -30,6 +30,9 @@ end
 else if @db like 'bookkeeping%' begin
 	set @app_name = 'Order'
 end
+else if @db like 'qc%' begin
+	set @app_name = 'SNP Quality Analysis Tool'
+end
 else begin
 	raiserror('Unknown database to update', 15, 1)
 	return
