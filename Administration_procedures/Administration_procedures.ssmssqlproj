@@ -15,7 +15,7 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="MM-WCHS001:USER\aengled">
+        <ConnectionNode Name="MM-WCHS001:USER\edeng655">
           <Created>2015-05-12T17:44:48.6031686+02:00</Created>
           <Type>SQL</Type>
           <Server>MM-WCHS001</Server>
@@ -92,9 +92,9 @@
           <FullPath>p_RestoreGTDB2Devel.sql</FullPath>
         </FileNode>
         <FileNode Name="p_UpdateApplicationVersion.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_UpdateApplicationVersion.sql</FullPath>
         </FileNode>
       </Items>
