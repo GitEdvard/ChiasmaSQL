@@ -14,7 +14,7 @@ as
 begin
 SET NOCOUNT ON
 
-backup database gtdb2_devel to disk = 'D:\Scripts\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak'
+backup database gtdb2_devel to disk = 'D:\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak'
 with init, skip
 
 

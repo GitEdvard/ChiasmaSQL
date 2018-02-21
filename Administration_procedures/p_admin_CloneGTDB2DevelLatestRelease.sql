@@ -50,7 +50,7 @@ end
 '
 
 set @sql = @sql + 
-'restore database ' + @devel_db_name + ' from disk = ''D:\Scripts\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak''
+'restore database ' + @devel_db_name + ' from disk = ''D:\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak''
 with move ''GTDB2_devel_Data'' to ''D:\SQLUserDBData\' + @devel_db_name + '.MDF'',
 move ''GTDB2_devel_Log''to ''D:\SQLUserDBTransLogs\' + @devel_db_name + '.ldf'',
 replace, recovery

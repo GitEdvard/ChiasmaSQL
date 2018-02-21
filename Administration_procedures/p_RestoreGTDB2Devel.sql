@@ -27,10 +27,10 @@ declare @backup_file varchar(1024)
 set @devel_db_name = 'GTDB2_devel'
 
 if @latest_merge = 1 begin
-	set @backup_file = '''D:\Scripts\Proc_references\Devel_backups\Latest merge\gtdb2_devel_backup.bak'''
+	set @backup_file = '''D:\Proc_references\Devel_backups\Latest merge\gtdb2_devel_backup.bak'''
 end
 if @latest_release = 1 begin
-	set @backup_file = '''D:\Scripts\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak'''
+	set @backup_file = '''D:\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak'''
 end
 
 -- Restore backup from latest release folder
