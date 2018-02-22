@@ -12,13 +12,13 @@ GO
 -- Initial password is "molmed2015"
 --read only databases are listed in readonly_dbs.txt 
 --owner databases are listed in owner_dbs.txt in 
---directory: D:\Scripts\Anv?ndbara script\Skapa anv?ndare\Developers
+--directory: D:\Proc_references
 --Also, user is added in table authority in GTDB2 and BookKeeping devel dbs
 
 -- Parameters
 -- @login_name: Login name for sql-user (restricted permissions), the login and db -users will be created in this script
 -- @sys_admin_login_name: sysadmin login name, should already been created before the call to this procedure
--- @devel_db_name: Name of the 'personal' devel db, e.g. GTDB2_devel_<initials>
+-- @initials: The name of the 'personal' devel db is generated according to pattern GTDB2_devel_<initials>
 
 alter procedure p_admin_CreateDevelUserSQL(
 	@login_name varchar(255),
@@ -75,7 +75,7 @@ end
 -- Read databases to be mapped from files into temp tables
 --&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 create table #readonly(db varchar(255))
-bulk insert #readonly from 'D:\Scripts\Proc_references\Devel_user_dbs\readonly_dbs.txt'
+bulk insert #readonly from 'D:\Proc_references\Devel_user_dbs\readonly_dbs.txt'
 with 
 (
 	rowterminator = '\n'
@@ -90,7 +90,7 @@ insert into #readonly2
 select db, ROW_NUMBER() over (order by db desc) from #readonly
 
 create table #owner (db varchar(235))
-bulk insert #owner from 'D:\Scripts\Proc_references\Devel_user_dbs\owner_dbs.txt'
+bulk insert #owner from 'D:\Proc_references\Devel_user_dbs\owner_dbs.txt'
 with 
 (
 	rowterminator = '\n'
@@ -106,7 +106,7 @@ select db, ROW_NUMBER() over (order by db desc) from #owner
 -- op-databases = database that have another database with the same name ending with 'practice' or 'devel'
 --&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 create table #op_dbs (db varchar(235))
-bulk insert #op_dbs from 'D:\Scripts\Proc_references\Devel_user_dbs\operational_dbs.txt'
+bulk insert #op_dbs from 'D:\Proc_references\Devel_user_dbs\operational_dbs.txt'
 with 
 (
 	rowterminator = '\n'

@@ -17,7 +17,7 @@ GO
 --				initials is 'ee', then a devel database with name GTDB2_devel_ee2 will be created. If there
 --				is an existing database with name GTDB2_devel_ee, it will not be affected. 
 
-create procedure p_CloneGTDB2DevelToPersonal @version int = null, @latest_release bit = 1, @latest_merge bit = 0
+alter procedure p_CloneGTDB2DevelToPersonal @version int = null, @latest_release bit = 1, @latest_merge bit = 0
 
 as
 begin
@@ -31,10 +31,10 @@ declare @backup_file varchar(1024)
 
 
 if @latest_merge = 1 begin
-	set @backup_file = '''D:\Scripts\Proc_references\Devel_backups\Latest merge\gtdb2_devel_backup.bak'''
+	set @backup_file = '''D:\Proc_references\Devel_backups\Latest merge\gtdb2_devel_backup.bak'''
 end
 if @latest_release = 1 begin
-	set @backup_file = '''D:\Scripts\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak'''
+	set @backup_file = '''D:\Proc_references\Devel_backups\Latest release\gtdb2_devel_backup.bak'''
 end
 
 -- Find 'personal' devel db name for current user

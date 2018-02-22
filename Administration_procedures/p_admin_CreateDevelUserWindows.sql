@@ -12,7 +12,7 @@ GO
 
 --Creates users for each database that is listed in file owner_dbs.txt for @login_name
 --@login_name should match a ordinary windows user, including the domain name USER\
---directory for file: D:\Scripts\Anv?ndbara script\Skapa anv?ndare\Developers
+--directory for file: D:\Proc_references
 --Also, user is added in table authority in GTDB2 and BookKeeping devel dbs
 
 
@@ -50,7 +50,7 @@ end
 -- Create temp tables
 --&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 create table #owner (db varchar(235))
-bulk insert #owner from 'D:\Scripts\Proc_references\Devel_user_dbs\owner_dbs.txt'
+bulk insert #owner from 'D:\Proc_references\Devel_user_dbs\owner_dbs.txt'
 with 
 (
 	rowterminator = '\n'
