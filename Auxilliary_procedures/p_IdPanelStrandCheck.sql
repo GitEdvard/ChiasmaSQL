@@ -17,7 +17,7 @@ create table #strandrefs (
 )
 
 
-bulk insert #strandrefs from 'D:\Scripts\Proc_references\gtdb2_id_panel_check\id_panel_strand_refs.txt' 
+bulk insert #strandrefs from 'D:\Proc_references\gtdb2_id_panel_check\id_panel_strand_refs.txt' 
 with (
 	fieldterminator = '\t',
 	rowterminator = '\n'
