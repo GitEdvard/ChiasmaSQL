@@ -32,21 +32,21 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="p_admin_CloneGTDB2DevelLatestRelease.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_admin_CloneGTDB2DevelLatestRelease.sql</FullPath>
         </FileNode>
         <FileNode Name="p_admin_CreateDevelUserSQL.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_admin_CreateDevelUserSQL.sql</FullPath>
         </FileNode>
         <FileNode Name="p_admin_CreateDevelUserWindows.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_admin_CreateDevelUserWindows.sql</FullPath>
         </FileNode>
         <FileNode Name="p_admin_DeleteDevelUser.sql">
@@ -68,27 +68,27 @@
           <FullPath>p_admin_GrantExecuteThis.sql</FullPath>
         </FileNode>
         <FileNode Name="p_BackupDevelLatestMerge.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_BackupDevelLatestMerge.sql</FullPath>
         </FileNode>
         <FileNode Name="p_BackupDevelLatestRelease.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_BackupDevelLatestRelease.sql</FullPath>
         </FileNode>
         <FileNode Name="p_CloneGTDB2DevelToPersonal.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_CloneGTDB2DevelToPersonal.sql</FullPath>
         </FileNode>
         <FileNode Name="p_RestoreGTDB2Devel.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_RestoreGTDB2Devel.sql</FullPath>
         </FileNode>
         <FileNode Name="p_UpdateApplicationVersion.sql">

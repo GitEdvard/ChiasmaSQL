@@ -33,6 +33,14 @@ end
 else if @db like 'qc%' begin
 	set @app_name = 'SNP Quality Analysis Tool'
 end
+else if @db like 'fp%' and @db like '%practice' begin
+	set @db = 'gtdb2_practice'
+	set @app_name = 'fpdatabase'
+end
+else if @db = 'fp' begin
+	set @db = 'gtdb2'
+	set @app_name = 'fpdatabase'
+end
 else begin
 	raiserror('Unknown database to update', 15, 1)
 	return
