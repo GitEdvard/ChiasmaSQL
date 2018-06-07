@@ -15,16 +15,20 @@ GO
 
 alter procedure p_UpdateApplicationVersion(
 	@db varchar(255),
-	@version_number varchar(255))
+	@version_number varchar(255),
+	@app_name varchar(255) = null)
 
 as
 begin
 SET NOCOUNT ON
 
 declare @sql varchar(max)
-declare @app_name varchar(255)
 
-if @db like 'gtdb2%' begin
+
+if @db like 'gtdb2%' and @app_name = 'chiasmadeposit' begin
+	select 'updating chiasma deposit entry ...'
+end
+else if @db like 'gtdb2%' begin
 	set @app_name = 'chiasma'
 end
 else if @db like 'bookkeeping%' begin
