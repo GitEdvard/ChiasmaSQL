@@ -72,6 +72,7 @@ select
 	new_sample 
 from @tmp
 
+-- Update all tube aliquots located at the referenced positions
 update ta set
 	sample_id = s.sample_id
 from @parsed_sample_location psl
@@ -80,6 +81,16 @@ inner join gtdb2.dbo.sample s on s.identifier = psl.sample_name
 inner join gtdb2.dbo.tube_aliquot ta on ta.plate_id = p.plate_id and 
 	ta.position_x = psl.pos_x and
 	ta.position_y = psl.pos_y
+
+-- Update all aliquots (snp) located at the referenced positions
+update a set
+	sample_id = s.sample_id
+from @parsed_sample_location psl
+inner join gtdb2.dbo.plate p on p.identifier = psl.plate
+inner join gtdb2.dbo.sample s on s.identifier = psl.sample_name
+inner join gtdb2.dbo.aliquot a on a.plate_id = p.plate_id and 
+	a.position_x = psl.pos_x and
+	a.position_y = psl.pos_y
 
 
 SET NOCOUNT off
