@@ -15,6 +15,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="MM-WCHS001:devel_edvard">
+          <Created>2019-01-07T12:37:49.447818+01:00</Created>
+          <Type>SQL</Type>
+          <Server>MM-WCHS001</Server>
+          <UserName>devel_edvard</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
         <ConnectionNode Name="MM-WCHS001:USER\edeng655">
           <Created>2015-05-12T17:44:48.6031686+02:00</Created>
           <Type>SQL</Type>
@@ -67,16 +79,28 @@
           <AssociatedConnUserName />
           <FullPath>p_admin_GrantExecuteThis.sql</FullPath>
         </FileNode>
+        <FileNode Name="p_Backup_QC_DevelLatestMerge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_Backup_QC_DevelLatestMerge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_Backup_QC_DevelLatestRelease.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_Backup_QC_DevelLatestRelease.sql</FullPath>
+        </FileNode>
         <FileNode Name="p_BackupDevelLatestMerge.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
-          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
           <FullPath>p_BackupDevelLatestMerge.sql</FullPath>
         </FileNode>
         <FileNode Name="p_BackupDevelLatestRelease.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
-          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
           <FullPath>p_BackupDevelLatestRelease.sql</FullPath>
         </FileNode>
         <FileNode Name="p_CloneGTDB2DevelToPersonal.sql">
@@ -85,10 +109,16 @@
           <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_CloneGTDB2DevelToPersonal.sql</FullPath>
         </FileNode>
+        <FileNode Name="p_Restore_QC_Devel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
+          <FullPath>p_Restore_QC_Devel.sql</FullPath>
+        </FileNode>
         <FileNode Name="p_RestoreGTDB2Devel.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
-          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
+          <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
           <FullPath>p_RestoreGTDB2Devel.sql</FullPath>
         </FileNode>
         <FileNode Name="p_UpdateApplicationVersion.sql">
