@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# SQL Server Management Studio Solution File, Format Version 13.00
-VisualStudioVersion = 14.0.25420.1
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DBAMonitor_procedures", "DBAMonitor\DBAMonitor_procedures\DBAMonitor_procedures.ssmssqlproj", "{417A0108-9E50-427E-B228-E6152528BD34}"
 EndProject
@@ -17,9 +17,12 @@ Global
 		{417A0108-9E50-427E-B228-E6152528BD34}.Default|Default.ActiveCfg = Default
 		{528B9375-7771-4F90-A1B8-9A6FD043E2D0}.Default|Default.ActiveCfg = Default
 		{178080DB-E435-4511-A5B5-1FAFA37353C8}.Default|Default.ActiveCfg = Default
-		{90770AD1-C7F3-41A5-B30B-29B462CD734A}.Default|Default.ActiveCfg = Default
+		{DA16A202-25B9-4061-A32E-27935B48F228}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B892290D-61C2-4C69-BD4F-A925323FC9EE}
 	EndGlobalSection
 EndGlobal
