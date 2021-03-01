@@ -44,10 +44,16 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="p_admin_Clone_Order_DevelLatestRelease.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_admin_Clone_Order_DevelLatestRelease.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_admin_Clone_Projman_DevelLatestRelease.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_admin_Clone_Projman_DevelLatestRelease.sql</FullPath>
         </FileNode>
         <FileNode Name="p_admin_CloneGTDB2DevelLatestRelease.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
@@ -80,22 +86,34 @@
           <FullPath>p_admin_GrantExecute.sql</FullPath>
         </FileNode>
         <FileNode Name="p_admin_GrantExecuteThis.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_admin_GrantExecuteThis.sql</FullPath>
         </FileNode>
         <FileNode Name="p_Backup_Order_DevelLatestMerge.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_Backup_Order_DevelLatestMerge.sql</FullPath>
         </FileNode>
         <FileNode Name="p_Backup_Order_DevelLatestRelease.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_Backup_Order_DevelLatestRelease.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_Backup_ProjectMan_DevelLatestMerge.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_Backup_ProjectMan_DevelLatestMerge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_Backup_ProjectMan_DevelLatestRelease.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_Backup_ProjectMan_DevelLatestRelease.sql</FullPath>
         </FileNode>
         <FileNode Name="p_Backup_QC_DevelLatestMerge.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MM-WCHS001:False:devel_edvard</AssociatedConnectionMoniker>
@@ -122,10 +140,16 @@
           <FullPath>p_BackupDevelLatestRelease.sql</FullPath>
         </FileNode>
         <FileNode Name="p_Clone_Order_DevelToPersonal.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
           <FullPath>p_Clone_Order_DevelToPersonal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_Clone_ProjectMan_DevelToPersonal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_Clone_ProjectMan_DevelToPersonal.sql</FullPath>
         </FileNode>
         <FileNode Name="p_CloneGTDB2DevelToPersonal.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
@@ -150,6 +174,12 @@
           <AssociatedConnSrvName>MM-WCHS001</AssociatedConnSrvName>
           <AssociatedConnUserName>devel_edvard</AssociatedConnUserName>
           <FullPath>p_RestoreGTDB2Devel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_RestoreProjectManDevel.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mm-wchs001</AssociatedConnSrvName>
+          <AssociatedConnUserName>admin_edvard</AssociatedConnUserName>
+          <FullPath>p_RestoreProjectManDevel.sql</FullPath>
         </FileNode>
         <FileNode Name="p_UpdateApplicationVersion.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mm-wchs001:False:admin_edvard</AssociatedConnectionMoniker>
